@@ -8,15 +8,18 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
+print("Running linear modelling of data: Python script\n")
 
 # Set notebook variables 
 filename = 'regrex1.csv'
 
+print("Loading filename {}".format(filename))
 
 # use read_csv() to read regex.csv file
 dataset = pd.read_csv(filename)
 dataset.describe()
 dataset
+print(dataset)
 
 
 # Fitting linear regression to the dataset
