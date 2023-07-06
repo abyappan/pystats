@@ -41,9 +41,10 @@ model.fit(dataset[['x']], dataset[['y']])
 # Scatter plot of original dataset
 plt.scatter(dataset[['x']], dataset[['y']], color = 'red')
 plt.title('y vs x')
-plt.title('Raw y vs x')
+plt.title("Raw y vs x for {}".format(filename))
 plt.xlabel('x')
 plt.ylabel('y')
+plt.savefig('Scatter_original.png')
 
 
 # Linear model of dataset
