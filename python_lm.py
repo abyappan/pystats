@@ -13,8 +13,14 @@ print(sys.argv)
 
 print("Running linear modelling of data: Python script\n")
 
-# Set notebook variables 
-filename = 'regrex1.csv'
+# Variable for filename
+if len(sys.argv) < 2:
+        print("Missing filename")
+        sys.exit(-1)
+
+# Set notebook variables
+filename = sys.argv[1]
+# filename = 'regrex1.csv' # old
 
 print("Loading filename {}".format(filename))
 
