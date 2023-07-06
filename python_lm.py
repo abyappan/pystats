@@ -7,6 +7,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+import sys
+
+print(sys.argv)
 
 print("Running linear modelling of data: Python script\n")
 
