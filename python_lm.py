@@ -28,7 +28,7 @@ print("Loading filename {}".format(filename))
 dataset = pd.read_csv(filename)
 dataset.describe()
 dataset
-print(dataset)
+# print(dataset)
 
 
 # Fitting linear regression to the dataset
