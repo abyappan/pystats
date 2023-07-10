@@ -44,7 +44,7 @@ plt.title('y vs x')
 plt.title("Raw y vs x for {}".format(filename))
 plt.xlabel('x')
 plt.ylabel('y')
-plt.savefig('Scatter_original.png')
+plt.savefig('py_orig.png')
 
 
 # Linear model of dataset
@@ -61,4 +61,4 @@ plt.plot(dataset[['x']], model.predict(dataset[['x']]), color = 'blue')
 plt.title('y vs x')
 plt.xlabel('x')
 plt.ylabel('y')
-
+plt.savefig('py_lm.png')
