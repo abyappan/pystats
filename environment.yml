@@ -21,6 +21,10 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - pandas.tools
+  - scipy
+  - statsmodels.formula.api
+  - seaborn
   - pip:
       - plotly
       - scikit-learn
